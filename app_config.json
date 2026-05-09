@@ -1,0 +1,72 @@
+{
+  "threshold": 6.624414949409801,
+  "feature_names": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount_scaled",
+    "Time_scaled"
+  ],
+  "input_dim": 30,
+  "fraud_mean_error": 19.26806640625,
+  "normal_mean_error": 0.4627626836299896,
+  "model_results": {
+    "Isolation Forest": {
+      "auc_roc": 0.9494,
+      "auc_pr": 0.3516,
+      "precision": 0.5659,
+      "recall": 0.2358,
+      "caught": 116,
+      "missed": 376
+    },
+    "One-Class SVM": {
+      "auc_roc": 0.9442,
+      "auc_pr": 0.6054,
+      "precision": 0.189,
+      "recall": 0.878,
+      "caught": 432,
+      "missed": 60
+    },
+    "Autoencoder": {
+      "auc_roc": 0.9536,
+      "auc_pr": 0.6156,
+      "precision": 0.6816,
+      "recall": 0.5569,
+      "caught": 274,
+      "missed": 218
+    },
+    "Autoencoder (Tuned)": {
+      "auc_roc": 0.9579,
+      "auc_pr": 0.6507,
+      "precision": 0.1468,
+      "recall": 0.8557,
+      "caught": 421,
+      "missed": 71
+    }
+  }
+}
