@@ -135,6 +135,11 @@ section[data-testid="stSidebar"] [data-testid="metric-container"] div {
 section[data-testid="stSidebar"] [data-testid="stExpander"] summary p {
     color: white !important;
 }
+/* Best model label in red */
+section[data-testid="stSidebar"] details:last-of-type summary p {
+    color: #ff4757 !important;
+    font-weight: bold;
+}
 
     /* Tab styling */
     .stTabs [data-baseweb="tab"] {
