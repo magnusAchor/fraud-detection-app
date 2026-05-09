@@ -39,7 +39,7 @@ def load_model_and_config():
 
     # Read all weights directly from h5 file into a dict
     weights = {}
-    with h5py.File('weights_only.weights.h5', 'r') as f:
+    with h5py.File('autoencoder_weights.weights.h5', 'r') as f:
         def collect_weights(name, obj):
             if isinstance(obj, h5py.Dataset):
                 weights[name] = np.array(obj)
