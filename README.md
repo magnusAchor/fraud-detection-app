@@ -12,7 +12,7 @@
 
 ## 🌐 Live Demo
 
-👉 **[Try the app here](https://your-app-name.streamlit.app)** ← *(replace with your Streamlit URL)*
+👉 **[Try the app here](https://fraud-detection-app-2fkkf8l4tanegpkvapske8.streamlit.app/)** ← *(replace with your Streamlit URL)*
 
 ![App Screenshot](plots/project_summary_dashboard.png)
 
