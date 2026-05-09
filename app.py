@@ -103,9 +103,38 @@ st.markdown("""
     }
 
     /* Sidebar */
-    section[data-testid="stSidebar"] {
-        background-color: #161b27;
-    }
+section[data-testid="stSidebar"] {
+    background-color: #161b27;
+    color: white;
+}
+
+/* Sidebar text elements */
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] .stMarkdown,
+section[data-testid="stSidebar"] .stExpander,
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: white !important;
+}
+
+/* Sidebar metric values */
+section[data-testid="stSidebar"] [data-testid="metric-container"] {
+    background: #1e2130;
+    border: 1px solid #2d3250;
+}
+
+section[data-testid="stSidebar"] [data-testid="metric-container"] label,
+section[data-testid="stSidebar"] [data-testid="metric-container"] div {
+    color: white !important;
+}
+
+/* Sidebar expander text */
+section[data-testid="stSidebar"] [data-testid="stExpander"] summary p {
+    color: white !important;
+}
 
     /* Tab styling */
     .stTabs [data-baseweb="tab"] {
