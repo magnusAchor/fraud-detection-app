@@ -66,7 +66,7 @@ RESULTS       = config['model_results'] if MODEL_LOADED else {}
 st.markdown("""
 <style>
     /* Main background */
-    .stApp { background-color: #0f1117; }
+   /* .stApp { background-color: #0f1117; }*/
 
     /* Fraud alert box */
     .fraud-box {
